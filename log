@@ -114,3 +114,16 @@ exercises.c:40:7: error: variable ‘array’ set but not used [-Werror=unused-b
 cc1: all warnings being treated as errors
 Compilation failed
 2bf8dd1
+Fri 12 Aug 2022 10:29:48 PM UTC: 
+ exercises.c | 12 +++++-------
+ 1 file changed, 5 insertions(+), 7 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:41:13: error: expected expression before ‘]’ token
+   41 |   x=sumaN(a[],n);
+      |             ^
+exercises.c:43:9: error: subscripted value is neither array nor pointer nor vector
+   43 |     k+=k[i];
+      |         ^
+Compilation failed
+7635e3a
