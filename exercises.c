@@ -21,11 +21,9 @@ Esta función suma los N primeros números del arreglo a
 int sumaN(int a[], int N) {
     int i;
     int tot = 0;
-
     for(i = 0; i < N; i++) {
       tot += a[i];
     }
-
     return tot;
 }
 
@@ -37,6 +35,14 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
+  int array[m];
+  int c=n-m;
+  for (int i = c; i<n;i++){
+    array[i]=a[i];
+  }
+  int x;
+  x= sumaN(array[],m);
+  *suma=x;
 }
 /*
 Ejercicio 3.

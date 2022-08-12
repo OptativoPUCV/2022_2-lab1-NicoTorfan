@@ -212,3 +212,17 @@ Fri 12 Aug 2022 10:53:48 PM UTC:
  tests:  2|5
 total_score: 20/70
 39ef91d
+Fri 12 Aug 2022 11:02:14 PM UTC: 
+ exercises.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:44:18: error: expected expression before ‘]’ token
+   44 |   x= sumaN(array[],m);
+      |                  ^
+exercises.c:38:7: error: variable ‘array’ set but not used [-Werror=unused-but-set-variable]
+   38 |   int array[m];
+      |       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+f4fb9ed
