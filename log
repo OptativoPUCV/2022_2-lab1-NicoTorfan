@@ -127,3 +127,13 @@ exercises.c:43:9: error: subscripted value is neither array nor pointer nor vect
       |         ^
 Compilation failed
 7635e3a
+Fri 12 Aug 2022 10:30:05 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:41:13: error: expected expression before ‘]’ token
+   41 |   x=sumaN(a[],n);
+      |             ^
+Compilation failed
+4575d02
