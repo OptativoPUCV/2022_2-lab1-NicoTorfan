@@ -37,7 +37,7 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
-
+}
 /*
 Ejercicio 3.
 Considerando la estructura Persona, programe la función
