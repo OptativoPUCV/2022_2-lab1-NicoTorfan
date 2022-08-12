@@ -153,3 +153,13 @@ exercises.c:21:15: note: expected ‘int *’ but argument is of type ‘int’
 cc1: all warnings being treated as errors
 Compilation failed
 3210f35
+Fri 12 Aug 2022 10:30:35 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:41:14: error: expected expression before ‘]’ token
+   41 |   x=sumaN(*a[],n);
+      |              ^
+Compilation failed
+02d6347
