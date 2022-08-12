@@ -2,3 +2,20 @@ Fri 12 Aug 2022 09:26:45 PM UTC:
  tests:  0|7
 total_score: 0/70
 7a20ce4
+Fri 12 Aug 2022 09:43:29 PM UTC: 
+ exercises.c | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:46:18: error: expected expression before ‘]’ token
+   46 |   x= sumaN(array[],m);
+      |                  ^
+exercises.c:47:7: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+   47 |   suma=x;
+      |       ^
+exercises.c:40:7: error: variable ‘array’ set but not used [-Werror=unused-but-set-variable]
+   40 |   int array[m];
+      |       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+f1581fa
