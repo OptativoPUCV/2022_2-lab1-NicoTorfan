@@ -81,3 +81,22 @@ exercises.c:21:15: note: expected ‘int *’ but argument is of type ‘int (*)
 cc1: all warnings being treated as errors
 Compilation failed
 09790c0
+Fri 12 Aug 2022 10:10:30 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:43:13: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+   43 |     array[i]=a[i];
+      |             ^
+exercises.c:46:12: error: passing argument 1 of ‘sumaN’ from incompatible pointer type [-Werror=incompatible-pointer-types]
+   46 |   x= sumaN(array,m);
+      |            ^~~~~
+      |            |
+      |            int **
+exercises.c:21:15: note: expected ‘int *’ but argument is of type ‘int **’
+   21 | int sumaN(int a[], int N) {
+      |           ~~~~^~~
+cc1: all warnings being treated as errors
+Compilation failed
+9ae54c3
