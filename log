@@ -163,3 +163,28 @@ exercises.c:41:14: error: expected expression before ‘]’ token
       |              ^
 Compilation failed
 02d6347
+Fri 12 Aug 2022 10:41:27 PM UTC: 
+ exercises.c | 13 +++++--------
+ 1 file changed, 5 insertions(+), 8 deletions(-)
+test.c: In function ‘test_suma’:
+test.c:61:9: error: called object ‘suma’ is not a function or function pointer
+   61 |         suma(i,j, res);
+      |         ^~~~
+In file included from test.c:5:
+exercises.c:39:48: note: declared here
+   39 | void sumaNultimos(int a[], int n, int m, int * suma) {
+      |                                          ~~~~~~^~~~
+test.c: In function ‘sumaNultimos’:
+test.c:244:5: error: ‘main’ is normally a non-static function [-Werror=main]
+  244 | int main( int argc, char *argv[] ) {
+      |     ^~~~
+test.c:266:1: error: expected declaration or statement at end of input
+  266 | }
+      | ^
+At top level:
+test.c:244:5: error: ‘main’ defined but not used [-Werror=unused-function]
+  244 | int main( int argc, char *argv[] ) {
+      |     ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+85bddcf
