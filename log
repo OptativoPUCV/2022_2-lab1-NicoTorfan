@@ -240,3 +240,9 @@ exercises.c:38:7: error: variable ‘array’ set but not used [-Werror=unused-b
 cc1: all warnings being treated as errors
 Compilation failed
 78b550b
+Fri 12 Aug 2022 11:07:27 PM UTC: 
+ exercises.c | 9 +--------
+ 1 file changed, 1 insertion(+), 8 deletions(-)
+ tests:  3|4
+total_score: 30/70
+4e96ab8
