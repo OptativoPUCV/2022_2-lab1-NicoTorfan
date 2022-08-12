@@ -226,3 +226,17 @@ exercises.c:38:7: error: variable ‘array’ set but not used [-Werror=unused-b
 cc1: all warnings being treated as errors
 Compilation failed
 f4fb9ed
+Fri 12 Aug 2022 11:07:19 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:44:18: error: expected expression before ‘]’ token
+   44 |   x= sumaN(array[],m);
+      |                  ^
+exercises.c:38:7: error: variable ‘array’ set but not used [-Werror=unused-but-set-variable]
+   38 |   int array[m];
+      |       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+78b550b
