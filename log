@@ -194,3 +194,15 @@ Fri 12 Aug 2022 10:41:48 PM UTC:
  tests:  1|6
 total_score: 10/70
 25dee35
+Fri 12 Aug 2022 10:53:34 PM UTC: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:77:33: error: ‘vector’ undeclared (first use in this function); did you mean ‘Vector’?
+   77 |    Vector * vec = malloc(sizeof(vector));
+      |                                 ^~~~~~
+      |                                 Vector
+exercises.c:77:33: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+af989fe
