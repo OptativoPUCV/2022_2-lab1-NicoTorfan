@@ -100,3 +100,17 @@ exercises.c:21:15: note: expected ‘int *’ but argument is of type ‘int **�
 cc1: all warnings being treated as errors
 Compilation failed
 9ae54c3
+Fri 12 Aug 2022 10:12:50 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:46:18: error: expected expression before ‘]’ token
+   46 |   x= sumaN(array[],m);
+      |                  ^
+exercises.c:40:7: error: variable ‘array’ set but not used [-Werror=unused-but-set-variable]
+   40 |   int array[m];
+      |       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+2bf8dd1
