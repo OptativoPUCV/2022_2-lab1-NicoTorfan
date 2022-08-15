@@ -408,3 +408,9 @@ exercises.c:44:7: error: assignment to ‘int *’ from ‘int’ makes pointer 
 cc1: all warnings being treated as errors
 Compilation failed
 bd1ce29
+Mon 15 Aug 2022 12:35:47 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+47f16ee
