@@ -397,3 +397,14 @@ exercises.c:43:9: error: expected ‘;’ before ‘suma’
       |   ~~~~   
 Compilation failed
 16b4538
+Mon 15 Aug 2022 12:35:33 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:44:7: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+   44 |   suma=x;
+      |       ^
+cc1: all warnings being treated as errors
+Compilation failed
+bd1ce29
