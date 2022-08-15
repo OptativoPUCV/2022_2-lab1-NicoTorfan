@@ -85,7 +85,7 @@ Vector * crearVector(int n) {
   vec->datos= calloc(n,sizeof(Vector));
   vec->capacidad=n;
   return vec;
-}c c44
+}
 
 /*
 Ejercicio 5a.
