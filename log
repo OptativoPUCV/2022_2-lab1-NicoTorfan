@@ -364,3 +364,13 @@ exercises.c:39:7: error: variable ‘x’ set but not used [-Werror=unused-but-s
 cc1: all warnings being treated as errors
 Compilation failed
 8979722
+Mon 15 Aug 2022 12:34:00 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:44:3: error: invalid operands to binary * (have ‘int’ and ‘int *’)
+   44 |   *suma=x;
+      |   ^
+Compilation failed
+eb0edfe
