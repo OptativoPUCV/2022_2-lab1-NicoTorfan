@@ -384,3 +384,16 @@ exercises.c:44:3: error: invalid operands to binary * (have ‘int’ and ‘int
       |   ^
 Compilation failed
 366d8e2
+Mon 15 Aug 2022 12:35:23 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:43:9: error: expected ‘;’ before ‘suma’
+   43 |   x=x-x1
+      |         ^
+      |         ;
+   44 |   suma=x;
+      |   ~~~~   
+Compilation failed
+16b4538
