@@ -35,6 +35,14 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
+int array[m];
+  int c=n-m;
+  for (int i = c; i<n;i++){
+    array[i]=a[i];
+  }
+  int x;
+  x= sumaN(array,m);
+  *suma=x;
 
 }
 /*
@@ -77,7 +85,7 @@ Vector * crearVector(int n) {
   vec->datos= calloc(n,sizeof(Vector));
   vec->capacidad=n;
   return vec;
-}
+}c c44
 
 /*
 Ejercicio 5a.
