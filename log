@@ -330,3 +330,17 @@ Mon 15 Aug 2022 12:31:07 AM UTC:
  tests:  3|4
 total_score: 30/70
 368c228
+Mon 15 Aug 2022 12:33:23 AM UTC: 
+ exercises.c | 14 ++++++--------
+ 1 file changed, 6 insertions(+), 8 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:43:3: error: invalid operands to binary * (have ‘int’ and ‘int *’)
+   42 |   x1=sumaN(a,n)
+      |      ~~~~~~~~~~
+      |      |
+      |      int
+   43 |   *suma=x-x1;
+      |   ^
+Compilation failed
+56fa91b

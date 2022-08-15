@@ -35,14 +35,12 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
-int array[m];
-  int c=n-m;
-    for (int i = c; i<n;i++){
-      array[i]=a[i];
-  }
-  int x;
-  x= sumaN(array,m+1);
-  *suma=x;
+  
+  int x,c,x1;
+  c=n-m;
+  x= sumaN(a,c);
+  x1=sumaN(a,n)
+  *suma=x-x1;
 
 }
 /*
