@@ -278,3 +278,19 @@ exercises.c:88:7: error: expected ‘;’ before ‘void’
       | ~~~~   
 Compilation failed
 5e3fc76
+Mon 15 Aug 2022 12:29:32 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c:88:2: error: unknown type name ‘c’
+   88 | }c c44
+      |  ^
+exercises.c:88:7: error: expected ‘;’ before ‘void’
+   88 | }c c44
+      |       ^
+      |       ;
+......
+   95 | void asignarValor(Vector * v, int i, int valor) {
+      | ~~~~   
+Compilation failed
+0aebe94
