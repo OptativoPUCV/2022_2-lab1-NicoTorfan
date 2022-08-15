@@ -438,3 +438,14 @@ Mon 15 Aug 2022 01:00:11 AM UTC:
  tests:  7|1
 total_score: 60/70
 f6a0bbe
+Mon 15 Aug 2022 01:05:22 AM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV2’:
+exercises.c:128:11: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+  128 |   c->datos=suma;
+      |           ^
+cc1: all warnings being treated as errors
+Compilation failed
+dea71e1
